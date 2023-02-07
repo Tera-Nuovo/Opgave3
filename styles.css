@@ -1,0 +1,52 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="date"], textarea {
+  width: 70%;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+button, input[type="submit"] {
+  width: 15%;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image img {
+  width: 300px;
+
+}
+
+hr {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
